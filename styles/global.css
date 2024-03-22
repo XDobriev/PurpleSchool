@@ -1,8 +1,29 @@
 :root {
     --color-primary: #6c38cc;
-    --color-bg: #16171D
+    --color-text: #fafafa;
+    --color-link-hover: #afb2bf;
+    --color-bg: #16171D;
+    --color-bg-medium: #1E1F29;
+    --color-bg-light: #2E2D3D;
+    --color-stroke: #4d5064;
+
+
+    --font-family: "Fira Sans", sans-serif;
+    --second-family: "Rubik", sans-serif;
+    --third-family: "Montserrat Alternates", sans-serif;
+
+    --border-8: 8px;
+
 }
 
 body {
     background: var(--color-bg);
+    margin: 0 auto;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
 }
