@@ -17,12 +17,19 @@
 
     --border-8: 8px;
     --border-10: 10px;
+    --padding: 32px;
     --layout-width: 1172px;
 
 }
 
 * {
     box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 body {
