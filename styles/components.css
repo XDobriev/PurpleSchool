@@ -227,10 +227,9 @@
     color: var(--color-text);
 }
 
-.course-card__cover {
-    background-image: url('../images/course.png');
-    background-size: contain;
-    height: 177px;
+.course-card__cover img {
+    width: 100%;
+    border-radius: var(--border-10) var(--border-10) 0 0;
 }
 
 .course-card__body {
