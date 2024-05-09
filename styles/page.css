@@ -39,6 +39,17 @@
 }
 
 
+.chip__wrapper {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.courses__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+}
+
 @media (max-width: 1200px) {
     .hero {
       flex-direction: column;
